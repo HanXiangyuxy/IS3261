@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Asian_item"
+    android:paddingBottom="4dip">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/asianImage1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asianTitle1"
+        android:layout_toRightOf="@+id/asianImage1"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/asianText1"
+        android:layout_toRightOf="@+id/asianImage1"
+        android:layout_below="@+id/asianTitle1"/>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/btn_gotoSingerList"
+        android:icon="@drawable/singer_list"
+        android:title="@string/gotoSingerList"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/btn_gotoHomepage"
+        android:icon="@drawable/home_page"
+        android:title="@string/gotoHomepage"
+        android:showAsAction="ifRoom" />
+
+</menu>

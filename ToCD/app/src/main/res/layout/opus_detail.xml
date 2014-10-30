@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id = "@+id/opusLinear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textView1">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/opus"
+            android:onClick="goToMainActivity"/>
+        <LinearLayout
+            android:id = "@+id/opusLinear11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/textView1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opus"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/qAuthor"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/release_year"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opusLinear3"
+        android:layout_below="@+id/opusLinear1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/songs"
+            android:layout_weight="0.5"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listen"
+            android:layout_weight="0.2"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:layout_weight="0.2"
+            android:textSize="20sp"
+            android:textColor="@color/red"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/opusLinear2"
+        android:layout_weight="0.4"
+        android:layout_below="@+id/opusLinear3"
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="373dp"
+            android:id="@+id/opusSong"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+    </LinearLayout>
+
+
+</RelativeLayout>

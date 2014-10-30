@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hanxiangyu.tocd" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Homepage"
+            android:label="@string/homepage_label"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+
+        <activity android:name=".MusicList"
+            android:label="@string/musicList_label"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+
+        <activity android:name=".SingerList"
+            android:label="@string/singerList_label"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+
+        <activity android:name=".OpusDetail"
+            android:label="Detail of Opus Jay Chou"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+
+        <activity android:name=".JayDetail"
+            android:label="Jay Chou"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+
+        <activity android:name=".AsianSingers"
+            android:label="Asian Singers"
+            android:parentActivityName=".SingerList"/>
+
+        <activity android:name=".ShopLocation"
+            android:label="Shop Location"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+        <activity android:name=".Album1Detail"
+            android:label="Album1 Detail"
+            android:parentActivityName="com.example.hanxiangyu.tocd.MainActivity"/>
+        <activity android:name=".Album1Location"
+            android:label="Album1 Location in the shop"
+            android:parentActivityName=".Album1Detail"/>
+        <activity android:name=".NorthAmericanSingers"
+            android:label="North American Singers"
+            android:parentActivityName=".SingerList"/>
+
+
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBj1hZtHGUveOUKy5ppe8wftpYRsiadPZs"/>
+
+    </application>
+
+</manifest>

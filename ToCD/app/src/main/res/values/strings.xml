@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToCD</string>
+    <string name="hello_world">Welcome To ToCD!</string>
+    <string name="welcome">Welcome To ToCD! Enjoy Your Journey!Welcome To ToCD!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gotoHomepage">Home Page</string>
+    <string name="gotoMusicList">Album List</string>
+    <string name="gotoSingerList">Singer Category List</string>
+
+    <string name="homepage_label">Homepage</string>
+    <string name="musicList_label">Album list</string>
+    <string name="singerList_label">Singer list</string>
+
+    <string name="new_release">New Release</string>
+    <string name="qilixiang">Name: Qi Li Xiang</string>
+    <string name="release_year">Release Year: 2012</string>
+    <string name="qAuthor">Author: Jay Chou</string>
+    <string name="opus">Name: Opus</string>
+
+    <string name="jay_name">Name: Jay Chou</string>
+    <string name="jay_nation">Nationality: Chinese</string>
+    <string name="jay_birth">Birthday: 18/Jan/1979</string>
+
+    <string name="songs">Song Name</string>
+    <string name="rating">Rating</string>
+    <string name="listen">Listen</string>
+    <string name="stop">Stop</string>
+    <string name="location">Location</string>
+    <string name="album1_location">Album1 Location</string>
+    <string name="asian_singer">Asian Singers</string>
+    <string name="gotoShopLocation">Shop Location</string>
+
+    <string name="north_american_singer">North American Singers</string>
+
+    <string name="album1_name">Album1_name</string>
+    <string name="album1_author">Album1_author</string>
+    <string name="album1_release">Album1_release_year</string>
+
+</resources>

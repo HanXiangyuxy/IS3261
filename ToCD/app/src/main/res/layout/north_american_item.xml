@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/North_american_item"
+    android:paddingBottom="4dip">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/northAmericanImage1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/northAmericanTitle"
+        android:layout_toRightOf="@+id/northAmericanImage1"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/northAmericanText"
+        android:layout_toRightOf="@+id/northAmericanImage1"
+        android:layout_below="@+id/northAmericanTitle"/>
+
+</RelativeLayout>
